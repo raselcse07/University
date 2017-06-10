@@ -1,0 +1,59 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+  <!-- Title -->
+
+    <title>Sylhet Engineering College</title>
+
+  <!-- Header Links -->
+
+    {% include "UniversityInfo/header_links.html" %}
+
+  </head>
+
+  <body>
+
+    <!-- Nav-bar-->
+    
+    {% include "UniversityInfo/nav-bar.html" %}
+
+    <div class="container theme-showcase " role="main">
+
+    <!--     Main Content -->
+      
+      <div class="page-header">
+       
+        {% block content %}
+        {% endblock %}
+
+      </div>
+
+   <!--  Footer -->
+
+    <div class="footeroption">
+
+      <font face="verdana" size="3">Developed By Md Rasel<font><br>
+      <font face="verdana" size="3">Department of CSE,Sylhet Engineering College</font>
+
+    </div>
+      
+    </div>
+
+
+    <!-- Bootstrap core JavaScript -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="{% static "js/bootstrap.min.js" %}"></script>
+    <script src="{% static "js/docs.min.js" %}"></script>
+    <script src="{% static "js/workaround.js" %}"></script>
+    
+  </body>
+</html>

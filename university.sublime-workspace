@@ -1,0 +1,463 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"list",
+				"list_filter"
+			],
+			[
+				"re",
+				"reg_number"
+			],
+			[
+				"stde",
+				"student_detail"
+			],
+			[
+				"ver",
+				"verbose_name_plural"
+			],
+			[
+				"list_di",
+				"list_display_links"
+			],
+			[
+				"year",
+				"year_dropdown"
+			],
+			[
+				"check",
+				"check_range"
+			],
+			[
+				"target",
+				"target_dir"
+			],
+			[
+				"Result",
+				"ResultForm"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"url",
+				"urllib"
+			],
+			[
+				"add",
+				"add_numbers2"
+			],
+			[
+				"Ve",
+				"VehicleType"
+			],
+			[
+				"arg",
+				"args_kwargs"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/UniversityInfo/views.py",
+			"settings":
+			{
+				"buffer_size": 1585,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/requirements.txt",
+			"settings":
+			{
+				"buffer_size": 944,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/UniversityInfo/contact.html",
+			"settings":
+			{
+				"buffer_size": 695,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "a",
+		"selected_items":
+		[
+			[
+				"a",
+				"Toggle AutoSave: all files"
+			],
+			[
+				"au",
+				"Toggle AutoSave: all files"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"side",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/rasel/Django/University",
+		"/home/rasel/Django/University/lib64",
+		"/home/rasel/Django/University/src",
+		"/home/rasel/Django/University/src/University",
+		"/home/rasel/Django/University/src/UniversityInfo",
+		"/home/rasel/Django/University/src/templates",
+		"/home/rasel/Django/University/src/templates/UniversityInfo"
+	],
+	"file_history":
+	[
+		"/home/rasel/Django/University/src/University/settings.py",
+		"/home/rasel/Django/University/src/UniversityInfo/forms.py",
+		"/home/rasel/Django/University/src/templates/UniversityInfo/dept_detail.html",
+		"/home/rasel/Django/University/src/templates/UniversityInfo/student_detail.html",
+		"/home/rasel/Django/University/src/templates/UniversityInfo/stu_list.html",
+		"/home/rasel/Django/University/src/UniversityInfo/urls.py",
+		"/home/rasel/Django/University/src/templates/UniversityInfo/dept_list.html",
+		"/home/rasel/Django/University/src/templates/UniversityInfo/about.html",
+		"/home/rasel/Django/University/src/templates/UniversityInfo/nav-bar.html",
+		"/home/rasel/Django/University/src/UniversityInfo/views.py",
+		"/home/rasel/Django/University/src/templates/UniversityInfo/contact.html",
+		"/home/rasel/Django/University/src/templates/UniversityInfo/base.html",
+		"/home/rasel/Django/University/src/UniversityInfo/models.py",
+		"/home/rasel/Django/University/src/static_in_project/our_static/css/main.css",
+		"/home/rasel/Django/University/src/templates/UniversityInfo/header_links.html",
+		"/home/rasel/Django/University/src/templates/UniversityInfo/home.html",
+		"/home/rasel/Django/University/src/University/urls.py",
+		"/home/rasel/Django/University/src/UniversityInfo/admin.py",
+		"/opt/lampp/htdocs/project/check_database.php",
+		"/opt/lampp/htdocs/project/exception.php",
+		"/opt/lampp/htdocs/project/error_handling.php",
+		"/opt/lampp/htdocs/project/filter.php",
+		"/opt/lampp/htdocs/project/session_example.php",
+		"/opt/lampp/htdocs/project/check_cookie.php",
+		"/opt/lampp/htdocs/project/index.php",
+		"/opt/lampp/htdocs/project/image.php",
+		"/opt/lampp/htdocs/project/test.txt",
+		"/opt/lampp/htdocs/project/upload.php",
+		"/opt/lampp/htdocs/project/CSS/main.css",
+		"/opt/lampp/htdocs/project/date.php",
+		"/opt/lampp/htdocs/project/intro.php",
+		"/opt/lampp/htdocs/project/forms.php",
+		"/opt/lampp/htdocs/project/array.php",
+		"/home/rasel/Djnago/University-Management-System/src/templates/Students/student_login.html",
+		"/home/rasel/Djnago/University-Management-System/src/templates/MainSite/footer.html",
+		"/home/rasel/Djnago/University-Management-System/src/templates/teacher/tacher_login.html",
+		"/home/rasel/Djnago/University-Management-System/src/templates/Students/results.html",
+		"/home/rasel/Djnago/University-Management-System/src/templates/MainSite/header.html",
+		"/home/rasel/Djnago/University-Management-System/src/teacher/models.py",
+		"/home/rasel/Djnago/University-Management-System/src/teacher/views.py",
+		"/home/rasel/Djnago/University-Management-System/src/teacher/admin.py",
+		"/home/rasel/Djnago/University-Management-System/src/students/views.py",
+		"/home/rasel/Djnago/University-Management-System/src/templates/MainSite/home.html",
+		"/home/rasel/Djnago/University-Management-System/src/templates/Students/student_profile.html",
+		"/home/rasel/Djnago/University-Management-System/src/templates/MainSite/nav-bar.html",
+		"/home/rasel/Djnago/University-Management-System/src/templates/teacher/tacher_login_profile.html",
+		"/home/rasel/Djnago/University-Management-System/src/teacher/forms.py",
+		"/home/rasel/Djnago/University-Management-System/src/teacher/urls.py",
+		"/home/rasel/Djnago/University-Management-System/src/templates/teacher/tacher_list.html",
+		"/home/rasel/Djnago/University-Management-System/src/static_in_project/our_static/css/main.css",
+		"/home/rasel/Djnago/University-Management-System/src/static_in_project/our_static/css/css_styles.css",
+		"/home/rasel/Djnago/University-Management-System/src/templates/teacher/tacher_profile.html",
+		"/home/rasel/Djnago/University-Management-System/src/templates/teacher/tacher_list_search.html",
+		"/home/rasel/Djnago/University-Management-System/src/templates/teacher/tacher_detail.html",
+		"/home/rasel/Djnago/University-Management-System/src/University/urls.py",
+		"/home/rasel/Djnago/University-Management-System/src/templates/teacher",
+		"/home/rasel/Djnago/University-Management-System/src/teacher/utils.py",
+		"/home/rasel/Djnago/University-Management-System/src/students/models.py",
+		"/home/rasel/Djnago/University-Management-System/src/University/settings.py",
+		"/home/rasel/Djnago/University-Management-System/src/students/admin.py",
+		"/home/rasel/Djnago/University-Management-System/src/templates/Students/login404_Not.html",
+		"/home/rasel/Djnago/University-Management-System/src/students/forms.py",
+		"/home/rasel/Djnago/University-Management-System/src/students/urls.py",
+		"/home/rasel/Djnago/University-Management-System/src/templates/Students/match_results.html",
+		"/home/rasel/Djnago/University-Management-System/src/templates/Students/results404_Not.html",
+		"/home/rasel/Djnago/University-Management-System/src/students/utils.py",
+		"/home/rasel/Djnago/University-Management-System/lib/python3.5/site-packages/django/contrib/admin/static/admin/js/vendor/jquery/jquery.js",
+		"/home/rasel/Djnago/University-Management-System/src/Academic/models.py",
+		"/home/rasel/Djnago/University-Management-System/src/Academic/views.py",
+		"/home/rasel/Djnago/University-Management-System/src/templates/Academic/department_detail.html",
+		"/opt/lampp/htdocs/project/test.php",
+		"/opt/lampp/htdocs/untitled.php",
+		"/home/rasel/Downloads/numerical/Lab",
+		"/home/rasel/Downloads/numerical/Lab/rung-kutta.m",
+		"/home/rasel/Downloads/numerical/Lab/trap.m",
+		"/home/rasel/Downloads/numerical/Lab/gussian.m",
+		"/home/rasel/Downloads/numerical/Lab/gauss2.m",
+		"/home/rasel/Python/Test_Code/download_image.py",
+		"/home/rasel/Python/Test_Code/117.jpg",
+		"/home/rasel/Python/Test_Code/health_rating.py",
+		"/home/rasel/Python/Recursion/health_rating.py",
+		"/home/rasel/Python/Test_Code/add.py",
+		"/home/rasel/Python/Test_Code/SimpleCalulator.py",
+		"/home/rasel/Python/Test_Code/vehicleClass.py",
+		"/home/rasel/Python/Test_Code/function.py",
+		"/home/rasel/Python/Test_Code/file.py",
+		"/home/rasel/Python/Text/test.txt",
+		"/home/rasel/Computer/Python/Recursion/Problem_1.py"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/rasel/Djnago/University-Management-System/src/static_in_project/our_static/img",
+			"/home/rasel/Djnago/University-Management-System/src/teacher"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"logo",
+			"qs",
+			"match_result",
+			"%}",
+			"TrxID"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"ob",
+			"match_key"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/UniversityInfo/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1585,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1494,
+								1494
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 918.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/requirements.txt",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 944,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/templates/UniversityInfo/contact.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 695,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								656,
+								656
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "university.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 235.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

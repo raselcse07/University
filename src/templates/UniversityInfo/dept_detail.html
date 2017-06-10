@@ -1,0 +1,39 @@
+{% extends "UniversityInfo/base.html" %}
+{% load static %}
+
+{% block content %}
+
+
+
+<div class="container theme-showcase" role="main">
+      <div class="jumbotron">
+        <h1>Sylhet Engineering College</h1>
+        <p>This is a short description about Sylhet Engineering College.This is a short description about Sylhet Engineering CollegeThis is a short description about Sylhet Engineering College</p>
+</div>
+
+<div class="row">
+
+  <div class="col-sm-8 col-sm-offset-2">
+
+  <font face="verdana" size="10">Batch List (Dept of {{ qs }})</font><hr>
+
+	{% for ob in session %}
+		<a href="{% url "UniversityInfo:student_list" ob.dept_name ob.batch_session %}" class="btn btn-success">{{ ob.batch_session }}</a><hr>
+	{% endfor %}
+
+
+<div class="row">
+
+  <div class="col-sm-5 col-sm-offset-5">
+
+	<a href="{% url "UniversityInfo:dept_list" %}" class="btn btn-info">Back</a><hr>
+
+</div>
+
+</div>
+
+ </div>
+
+</div>
+
+{% endblock %}

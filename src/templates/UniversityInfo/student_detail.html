@@ -1,0 +1,102 @@
+{% extends "UniversityInfo/base.html" %}
+{% load static %}
+
+{% block content %}
+
+
+<div class="container theme-showcase" role="main">
+      <div class="jumbotron">
+        <h1>Sylhet Engineering College</h1>
+        <p>This is a short description about Sylhet Engineering College.This is a short description about Sylhet Engineering CollegeThis is a short description about Sylhet Engineering College</p>
+</div>
+
+<div class="row">
+
+  <div class="col-sm-8 col-sm-offset-2">
+
+  	<font face="verdana" size="10">Students Detail</font><hr>
+
+	<table class="table">
+
+    <tbody>
+
+    	{% for ob in qs3 %}
+
+			      <tr class="success">
+			        <td><strong>Name</strong></td>
+			        <td>{{ ob.student_name }}</td>
+			      </tr>
+
+			       <tr class="danger">
+			        <td><strong>Registration Number</strong></td>
+			        <td>{{ ob.reg_number }}</td>
+			      </tr>
+
+			       <tr class="info">
+			        <td><strong>Fathers Name</strong></td>
+			        <td>{{ ob.fathers_name }}</td>
+			      </tr>
+
+			       <tr class="success">
+			        <td><strong>Mothers Name</strong></td>
+			        <td>{{ ob.mothers_name }}</td>
+			      </tr>
+
+			       <tr class="danger">
+			        <td><strong>Department</strong></td>
+			        <td>{{ ob.dept_name }}</td>
+			      </tr>
+
+			       <tr class="info">
+			        <td><strong>Session</strong></td>
+			        <td>{{ ob.batch_session }}</td>
+			      </tr>
+
+			      <tr class="success">
+			        <td><strong>Semester</strong></td>
+			        <td>{{ ob.semester }}</td>
+			      </tr>
+
+			      <tr class="danger">
+			        <td><strong>Birthday</strong></td>
+			        <td>{{ ob.birthday }}</td>
+			      </tr>
+
+			      <tr class="info">
+			        <td><strong>Home Town</strong></td>
+			        <td>{{ ob.dist }}</td>
+			      </tr>
+
+			      <tr class="success">
+			        <td><strong>Year of Admission</strong></td>
+			        <td>{{ ob.admission_year }}</td>
+			      </tr>
+
+      	{% endfor %}   
+
+    </tbody>
+  </table>
+
+
+  </div>
+
+<div class="row">
+
+  <div class="col-sm-5 col-sm-offset-5">
+
+  {% for ob in qs3 %}
+
+	<a href="{% url "UniversityInfo:student_list" ob.dept_name ob.batch_session %}" class="btn btn-info">Back</a><hr>
+
+{% endfor %}
+
+
+  </div>
+</div>
+
+
+
+</div>
+        
+
+{% endblock %}

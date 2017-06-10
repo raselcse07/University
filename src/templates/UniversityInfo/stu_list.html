@@ -1,0 +1,66 @@
+{% extends "UniversityInfo/base.html" %}
+{% load static %}
+
+{% block content %}
+
+
+<div class="container theme-showcase" role="main">
+      <div class="jumbotron">
+        <h1>Sylhet Engineering College</h1>
+        <p>This is a short description about Sylhet Engineering College.This is a short description about Sylhet Engineering CollegeThis is a short description about Sylhet Engineering College</p>
+</div>
+
+<div class="row">
+
+  <div class="col-sm-8 col-sm-offset-2">
+
+  {% if qs3 %}
+
+  	<font face="verdana" size="10">Students List ({{ qs }}-{{ qs2 }})</font><hr>
+
+	<table class="table">
+
+    <thead>
+      <tr class="success">
+        <th>Name</th>
+        <th>Registration Number</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+    	{% for ob in qs3 %}
+
+			      <tr class="active">
+			        <td><a href="{% url "UniversityInfo:student_detail" ob.dept_name ob.batch_session ob.reg_number %}">{{ ob.student_name }}</a></td>
+			        <td><a href="{% url "UniversityInfo:student_detail" ob.dept_name ob.batch_session ob.reg_number %}">{{ ob.reg_number }}</a></td>
+			      </tr>
+      	{% endfor %}   
+
+    </tbody>
+  </table>
+
+  {% else %}
+
+  <font face="verdana" size="10" color="red">Not Found!!!</font><br>
+  <font face="verdana" size="10" color="red">No Student under Dept of {{ qs }},Batch {{ qs2 }}</font><hr>
+
+  {% endif %}
+
+
+
+  <div class="row">
+
+  <div class="col-sm-5 col-sm-offset-5">
+
+  <a href="{% url "UniversityInfo:dept_detail" qs %}" class="btn btn-info">Back</a><hr>
+
+  </div>
+  </div>
+
+  </div>
+
+</div>
+        
+
+{% endblock %}
